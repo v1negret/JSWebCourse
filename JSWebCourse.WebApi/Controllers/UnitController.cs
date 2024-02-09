@@ -33,7 +33,6 @@ namespace JSWebCourse.WebApi.Controllers
 
         [HttpGet]
         [Route("get/{id}")]
-        [Authorize]
         public async Task<IActionResult> GetUnit([FromRoute] int id)
         {
             var response = await _unitService.GetUnitById(id);

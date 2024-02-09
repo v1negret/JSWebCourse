@@ -148,3 +148,4 @@ D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\JSWebCourse.Serv
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\Scrutor.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCourse.WebApi.sourcelink.json

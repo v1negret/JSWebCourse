@@ -9,3 +9,4 @@ D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Mode
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\refint\JSWebCourse.Models.dll
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Models.pdb
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\ref\JSWebCourse.Models.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Models.sourcelink.json

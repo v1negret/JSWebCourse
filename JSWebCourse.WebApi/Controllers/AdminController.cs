@@ -35,11 +35,6 @@ namespace JSWebCourse.WebApi.Controllers
                 {
                     await _roleManager.CreateAsync(new IdentityRole("Admin"));
                 }
-                var httpContext = HttpContext;
-                if (!HttpContext.User.Identity.IsAuthenticated)
-                {
-                    return StatusCode(403);
-                }
 
                 var user = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
                 await _userManager.AddToRoleAsync(user, "Admin");

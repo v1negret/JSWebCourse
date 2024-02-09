@@ -13,3 +13,4 @@ D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\ref\JSWebCourse.Da
 D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Models.dll
 D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Models.pdb
 D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.csproj.CopyComplete
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.sourcelink.json
