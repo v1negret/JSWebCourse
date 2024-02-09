@@ -1,0 +1,6 @@
+@JSWebCourse.WebApi_HostAddress = http://localhost:5105
+
+GET {{JSWebCourse.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

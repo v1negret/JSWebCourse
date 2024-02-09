@@ -1,0 +1,15 @@
+D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Data.deps.json
+D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Data.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Data.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.csproj.AssemblyReference.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.AssemblyInfoInputs.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.AssemblyInfo.cs
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.csproj.CoreCompileInputs.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\refint\JSWebCourse.Data.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\ref\JSWebCourse.Data.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Models.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Data\bin\Debug\net8.0\JSWebCourse.Models.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Data\obj\Debug\net8.0\JSWebCourse.Data.csproj.CopyComplete
