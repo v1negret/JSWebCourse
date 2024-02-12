@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("JSWebCourse.Models")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("JSWebCourse.Checks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9364ead9f112a1c763dcaf360a91321b6379449c")]
-[assembly: System.Reflection.AssemblyProductAttribute("JSWebCourse.Models")]
-[assembly: System.Reflection.AssemblyTitleAttribute("JSWebCourse.Models")]
+[assembly: System.Reflection.AssemblyProductAttribute("JSWebCourse.Checks")]
+[assembly: System.Reflection.AssemblyTitleAttribute("JSWebCourse.Checks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

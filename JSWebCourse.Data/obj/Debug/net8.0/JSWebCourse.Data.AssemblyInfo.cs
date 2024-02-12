@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSWebCourse.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5191d3d7f75c39974145b721f11264e9fcb42329")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9364ead9f112a1c763dcaf360a91321b6379449c")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSWebCourse.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSWebCourse.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

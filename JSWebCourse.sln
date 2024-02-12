@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSWebCourse.Services", "JSW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSWebCourse.Data", "JSWebCourse.Data\JSWebCourse.Data.csproj", "{CFD09011-AFFF-40A0-86F2-E196E63E26EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSWebCourse.Checks", "JSWebCourse.Checks\JSWebCourse.Checks.csproj", "{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{CFD09011-AFFF-40A0-86F2-E196E63E26EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD09011-AFFF-40A0-86F2-E196E63E26EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD09011-AFFF-40A0-86F2-E196E63E26EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

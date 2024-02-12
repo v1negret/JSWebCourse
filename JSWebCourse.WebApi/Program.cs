@@ -1,3 +1,5 @@
+using JSWebCourse.Checks;
+using JSWebCourse.Checks.Interfaces;
 using JSWebCourse.Data;
 using JSWebCourse.Services;
 using JSWebCourse.Services.Interfaces;
@@ -14,6 +16,9 @@ using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
 // Add services to the container.
 
@@ -45,6 +50,7 @@ builder.Services.AddSwaggerGen(opt =>
 
 builder.Services.AddScoped<IChapterService, ChapterService>();
 builder.Services.AddScoped<IUnitService, UnitService>();
+builder.Services.AddScoped<IHtmlValidator, HtmlValidator>();
 
 var app = builder.Build();
 

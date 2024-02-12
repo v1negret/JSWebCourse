@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\JSWebCourse.Checks\JSWebCourse.Checks.csproj" />
     <ProjectReference Include="..\JSWebCourse.Data\JSWebCourse.Data.csproj" />
     <ProjectReference Include="..\JSWebCourse.Models\JSWebCourse.Models.csproj" />
   </ItemGroup>

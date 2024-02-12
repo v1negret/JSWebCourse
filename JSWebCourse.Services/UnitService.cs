@@ -1,4 +1,5 @@
-﻿using JSWebCourse.Data;
+﻿using JSWebCourse.Checks.Interfaces;
+using JSWebCourse.Data;
 using JSWebCourse.Models;
 using JSWebCourse.Models.Dto;
 using JSWebCourse.Services.Interfaces;
@@ -16,9 +17,11 @@ namespace JSWebCourse.Services
     public class UnitService : IUnitService
     {
         private readonly ApplicationDbContext _db;
-        public UnitService(ApplicationDbContext db)
+        private readonly IHtmlValidator _htmlValidator;
+        public UnitService(ApplicationDbContext db, IHtmlValidator htmlValidator)
         {
             _db = db;       
+            _htmlValidator = htmlValidator;
         }
 
         public async Task<IEnumerable<Unit>> GetUnitsByChapter(int chapterId)
@@ -40,6 +43,13 @@ namespace JSWebCourse.Services
             try
             {
                 if(unitDto == null)
+                {
+                    return ServiceResult.BadRequest;
+                }
+
+                var htmlValidate = _htmlValidator.Validate(unitDto.HtmlString);
+
+                if(htmlValidate == false)
                 {
                     return ServiceResult.BadRequest;
                 }
