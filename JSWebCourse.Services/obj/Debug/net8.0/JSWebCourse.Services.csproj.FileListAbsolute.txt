@@ -16,3 +16,5 @@ D:\Repositories\JSWebCourse\JSWebCourse.Services\bin\Debug\net8.0\JSWebCourse.Da
 D:\Repositories\JSWebCourse\JSWebCourse.Services\bin\Debug\net8.0\JSWebCourse.Models.pdb
 D:\Repositories\JSWebCourse\JSWebCourse.Services\obj\Debug\net8.0\JSWebCourse.Services.csproj.CopyComplete
 D:\Repositories\JSWebCourse\JSWebCourse.Services\obj\Debug\net8.0\JSWebCourse.Services.sourcelink.json
+D:\Repositories\JSWebCourse\JSWebCourse.Services\bin\Debug\net8.0\JSWebCourse.Checks.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Services\bin\Debug\net8.0\JSWebCourse.Checks.pdb

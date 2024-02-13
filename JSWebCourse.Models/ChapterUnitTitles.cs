@@ -8,6 +8,7 @@ namespace JSWebCourse.Models
 {
     public class ChapterUnitTitles
     {
+        public int ChapterId { get; set; }
         public string Title { get; set; }
         public List<string> UnitsNames {  get; set; }
     }

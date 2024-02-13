@@ -1,0 +1,13 @@
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\bin\Debug\net8.0\JSWebCourse.Checks.deps.json
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\bin\Debug\net8.0\JSWebCourse.Checks.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\bin\Debug\net8.0\JSWebCourse.Checks.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.csproj.AssemblyReference.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.AssemblyInfoInputs.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.AssemblyInfo.cs
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.csproj.CoreCompileInputs.cache
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.sourcelink.json
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\refint\JSWebCourse.Checks.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\ref\JSWebCourse.Checks.dll

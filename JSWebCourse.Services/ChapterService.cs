@@ -36,7 +36,7 @@ namespace JSWebCourse.Services
                     {
                         titles.Add(title.Title);
                     }
-                    result.Add(new ChapterUnitTitles { Title = chapter.Title, UnitsNames = titles});
+                    result.Add(new ChapterUnitTitles { ChapterId = chapter.ChapterId, Title = chapter.Title, UnitsNames = titles});
                 }
                 return result;
                 

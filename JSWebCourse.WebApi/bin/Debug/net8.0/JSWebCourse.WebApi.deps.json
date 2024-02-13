@@ -21,6 +21,14 @@
           "JSWebCourse.WebApi.dll": {}
         }
       },
+      "HtmlAgilityPack/1.11.58": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.58.0",
+            "fileVersion": "1.11.58.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -874,6 +882,14 @@
         }
       },
       "System.Threading.Channels/6.0.0": {},
+      "JSWebCourse.Checks/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.58"
+        },
+        "runtime": {
+          "JSWebCourse.Checks.dll": {}
+        }
+      },
       "JSWebCourse.Data/1.0.0": {
         "dependencies": {
           "JSWebCourse.Models": "1.0.0",
@@ -891,6 +907,7 @@
       },
       "JSWebCourse.Services/1.0.0": {
         "dependencies": {
+          "JSWebCourse.Checks": "1.0.0",
           "JSWebCourse.Data": "1.0.0",
           "JSWebCourse.Models": "1.0.0"
         },
@@ -905,6 +922,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/LzjIKoAWdyXOn6o+zJTN2qpNIwfaDWbSQ974pVRwnzHsUFohIOSILdtkPrSO6YC38MNj4nDbpr1RkVBDE1RWQ==",
+      "path": "htmlagilitypack/1.11.58",
+      "hashPath": "htmlagilitypack.1.11.58.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1388,6 +1412,11 @@
       "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
       "path": "system.threading.channels/6.0.0",
       "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
+    },
+    "JSWebCourse.Checks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "JSWebCourse.Data/1.0.0": {
       "type": "project",
