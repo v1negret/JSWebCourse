@@ -1,5 +1,6 @@
 ﻿using JSWebCourse.Models;
 using JSWebCourse.Services.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +9,7 @@ namespace JSWebCourse.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class CourseController : ControllerBase
     {
         private readonly IChapterService _chapterService;

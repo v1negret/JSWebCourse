@@ -23,6 +23,7 @@ builder.Logging.AddConsole();
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddCors();
 
 // Add database and identity to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(opt => 
@@ -64,6 +65,13 @@ if (app.Environment.IsDevelopment())
 app.MapIdentityApi<IdentityUser>();
 
 app.UseHttpsRedirection();
+
+app.UseCors(builder =>
+{
+    builder.AllowAnyHeader();
+    builder.AllowAnyMethod();
+    builder.AllowAnyOrigin();
+});
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -2,6 +2,7 @@
 using JSWebCourse.Models.Dto;
 using JSWebCourse.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,7 @@ namespace JSWebCourse.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class ChapterController : ControllerBase
     {
         private readonly IChapterService _chapterService;

@@ -3,6 +3,7 @@ using JSWebCourse.Models.Dto;
 using JSWebCourse.Services;
 using JSWebCourse.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ namespace JSWebCourse.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class UnitController : ControllerBase
     {
         private readonly IUnitService _unitService;
