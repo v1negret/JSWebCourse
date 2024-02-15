@@ -12,7 +12,7 @@ namespace JSWebCourse.Services.Interfaces
     {
         public Task<IEnumerable<ChapterUnitTitles>> GetAllNames();
         public Task<IEnumerable<Chapter>> GetAllChapters();
-        public Task<ChapterServiceResult> GetChapterById(int id);
+        public Task<GetChapterByIdResult> GetChapterById(int id);
         public Task<ChapterServiceResult> GetChapterByTitle(string title);
         public Task<ServiceResult> RemoveChapterById(int id);
         public Task<ServiceResult> RemoveChapter(Chapter chapter);

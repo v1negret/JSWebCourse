@@ -91,23 +91,37 @@ namespace JSWebCourse.Services
             }
         }
 
-        public async Task<ChapterServiceResult> GetChapterById(int id)
+        public async Task<GetChapterByIdResult> GetChapterById(int id)
         {
             try
             {
                 if (id == 0)
                 {
-                    return new ChapterServiceResult()
+                    return new GetChapterByIdResult()
                     {
                         ServiceResult = ServiceResult.BadRequest,
                         Chapter = null
                     };                        
                 }
 
-                var result = await _db.Chapters
+                var chapter = await _db.Chapters
+                    .Include(c => c.Units)
                     .FirstOrDefaultAsync(c => c.ChapterId == id);
 
-                return new ChapterServiceResult()
+                var result = new GetChapterDto()
+                {
+                    ChapterId = chapter.ChapterId,
+                    Title = chapter.Title,
+                    Description = chapter.Description,
+                    Units = new List<ForGetChapterUnitDto>()
+                };
+
+                foreach (var unit in chapter.Units)
+                {
+                    result.Units.Add(new ForGetChapterUnitDto() { Id = unit.UnitId, Title = unit.Title });
+                }
+
+                return new GetChapterByIdResult()
                 {
                     Chapter = result,
                     ServiceResult = ServiceResult.Success
@@ -116,7 +130,7 @@ namespace JSWebCourse.Services
             }
             catch (Exception ex)
             {
-                return new ChapterServiceResult()
+                return new GetChapterByIdResult()
                 {
                     ServiceResult = ServiceResult.BadRequest,
                     Chapter = null
