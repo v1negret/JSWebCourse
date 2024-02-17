@@ -10,3 +10,4 @@ D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\refint\JSWebCour
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Models.pdb
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\ref\JSWebCourse.Models.dll
 D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Models.sourcelink.json
+D:\Repositories\JSWebCourse\JSWebCourse.Models\obj\Debug\net8.0\JSWebCourse.Models.csproj.AssemblyReference.cache

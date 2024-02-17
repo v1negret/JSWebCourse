@@ -38,20 +38,20 @@ namespace JSWebCourse.Services
             }
         }
 
-        public async Task<ServiceResult> AddUnitToChapter(AddUnitDto unitDto)
+        public async Task<AddUnitResult> AddUnitToChapter(AddUnitDto unitDto)
         {
             try
             {
                 if(unitDto == null)
                 {
-                    return ServiceResult.BadRequest;
+                    return new AddUnitResult() { Result = ServiceResult.BadRequest };
                 }
 
                 var htmlValidate = _htmlValidator.Validate(unitDto.HtmlString);
 
-                if(htmlValidate == false)
+                if(htmlValidate.Result == false)
                 {
-                    return ServiceResult.BadRequest;
+                    return new AddUnitResult() { Result = ServiceResult.BadRequest, Errors = htmlValidate.Errors};
                 }
 
                 var unit = new Unit()
@@ -65,11 +65,11 @@ namespace JSWebCourse.Services
                 await _db.Units.AddAsync(unit);
                 await _db.SaveChangesAsync();
 
-                return ServiceResult.Success;
+                return new AddUnitResult() { Result = ServiceResult.Success };
             }
             catch(Exception ex)
             {
-                return ServiceResult.ServerError;
+                return new AddUnitResult() { Result = ServiceResult.ServerError };
             }
         }
 

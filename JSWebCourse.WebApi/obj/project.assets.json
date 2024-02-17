@@ -1387,7 +1387,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.58"
+          "HtmlAgilityPack": "1.11.58",
+          "JSWebCourse.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/JSWebCourse.Checks.dll": {}
@@ -1414,6 +1415,9 @@
       "JSWebCourse.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.58"
+        },
         "compile": {
           "bin/placeholder/JSWebCourse.Models.dll": {}
         },
@@ -3725,6 +3729,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3779,7 +3788,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

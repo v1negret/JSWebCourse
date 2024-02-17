@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "T96t6EkQQrrvFfRQtOpkNu2NS5qjw5m75N44Oli7LG3xJRkgGbZOOMBK3Z1nC0u0r+iHHhAGhLptbo2Wk/inxA==",
+  "dgSpecHash": "Z2K4r6pQiHfQ6AzUUiWrrc2Mc0yOC86NcfAP/alj5/qE78DdoNOteHz81k75kea9UMuGVPcb/2ONJenAHXJIhA==",
   "success": true,
   "projectFilePath": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\JSWebCourse.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maksb\\.nuget\\packages\\htmlagilitypack\\1.11.58\\htmlagilitypack.1.11.58.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -218,7 +218,8 @@
       },
       "JSWebCourse.Checks/1.0.0": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.58"
+          "HtmlAgilityPack": "1.11.58",
+          "JSWebCourse.Models": "1.0.0"
         },
         "runtime": {
           "JSWebCourse.Checks.dll": {}
@@ -235,6 +236,9 @@
         }
       },
       "JSWebCourse.Models/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.58"
+        },
         "runtime": {
           "JSWebCourse.Models.dll": {}
         }

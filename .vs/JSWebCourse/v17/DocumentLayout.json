@@ -1,0 +1,464 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repositories\\JSWebCourse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD09011-AFFF-40A0-86F2-E196E63E26EE}|JSWebCourse.Data\\JSWebCourse.Data.csproj|d:\\repositories\\jswebcourse\\jswebcourse.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD09011-AFFF-40A0-86F2-E196E63E26EE}|JSWebCourse.Data\\JSWebCourse.Data.csproj|solutionrelative:jswebcourse.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|d:\\repositories\\jswebcourse\\jswebcourse.services\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|solutionrelative:jswebcourse.services\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|d:\\repositories\\jswebcourse\\jswebcourse.services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|solutionrelative:jswebcourse.services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\addunitresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\addunitresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\htmlvalidatorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\htmlvalidatorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}|JSWebCourse.Checks\\JSWebCourse.Checks.csproj|d:\\repositories\\jswebcourse\\jswebcourse.checks\\interfaces\\ihtmlvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}|JSWebCourse.Checks\\JSWebCourse.Checks.csproj|solutionrelative:jswebcourse.checks\\interfaces\\ihtmlvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}|JSWebCourse.Checks\\JSWebCourse.Checks.csproj|d:\\repositories\\jswebcourse\\jswebcourse.checks\\htmlvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C4FF7E-25B0-4808-BEE6-DA16C9424191}|JSWebCourse.Checks\\JSWebCourse.Checks.csproj|solutionrelative:jswebcourse.checks\\htmlvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|d:\\repositories\\jswebcourse\\jswebcourse.services\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|solutionrelative:jswebcourse.services\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\dto\\getchapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\dto\\getchapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\getchapterbyidresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\getchapterbyidresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\chapterserviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\chapterserviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|d:\\repositories\\jswebcourse\\jswebcourse.services\\interfaces\\ichapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E5E7D2-854C-4ACA-B397-2B50931A8450}|JSWebCourse.Services\\JSWebCourse.Services.csproj|solutionrelative:jswebcourse.services\\interfaces\\ichapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\dto\\addchapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\dto\\addchapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\dto\\forgetchapterunitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\dto\\forgetchapterunitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|d:\\repositories\\jswebcourse\\jswebcourse.models\\chapterunittitles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67530D7E-74D9-4E0B-B414-D9745E747BEB}|JSWebCourse.Models\\JSWebCourse.Models.csproj|solutionrelative:jswebcourse.models\\chapterunittitles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\jswebcourse.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\jswebcourse.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|d:\\repositories\\jswebcourse\\jswebcourse.webapi\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{50D8B26E-2CD4-424A-A52E-66EAA1218F14}|JSWebCourse.WebApi\\JSWebCourse.WebApi.csproj|solutionrelative:jswebcourse.webapi\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUnitService.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\Interfaces\\IUnitService.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Services\\Interfaces\\IUnitService.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\Interfaces\\IUnitService.cs",
+              "RelativeToolTip": "JSWebCourse.Services\\Interfaces\\IUnitService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T13:38:26.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddUnitResult.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\AddUnitResult.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\AddUnitResult.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\AddUnitResult.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\AddUnitResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T13:33:14.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HtmlValidatorResult.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\HtmlValidatorResult.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\HtmlValidatorResult.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\HtmlValidatorResult.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\HtmlValidatorResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T13:18:38.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChapterController.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\ChapterController.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Controllers\\ChapterController.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\ChapterController.cs",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Controllers\\ChapterController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAhwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T17:39:55.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetChapterDto.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\GetChapterDto.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\Dto\\GetChapterDto.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\GetChapterDto.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\Dto\\GetChapterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:04:28.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Controllers\\UnitController.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Controllers\\UnitController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwDsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T07:48:04.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HtmlValidator.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Checks\\HtmlValidator.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Checks\\HtmlValidator.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Checks\\HtmlValidator.cs",
+              "RelativeToolTip": "JSWebCourse.Checks\\HtmlValidator.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T05:28:23.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetChapterByIdResult.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\GetChapterByIdResult.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\GetChapterByIdResult.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\GetChapterByIdResult.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\GetChapterByIdResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:10:54.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitService.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\UnitService.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Services\\UnitService.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\UnitService.cs",
+              "RelativeToolTip": "JSWebCourse.Services\\UnitService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwCgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T05:51:38.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "JSWebCourse.Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T13:57:29.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChapterService.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\ChapterService.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Services\\ChapterService.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\ChapterService.cs",
+              "RelativeToolTip": "JSWebCourse.Services\\ChapterService.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAIAwwHEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T05:47:44.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Chapter.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Chapter.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\Chapter.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Chapter.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\Chapter.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:05:14.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IHtmlValidator.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Checks\\Interfaces\\IHtmlValidator.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Checks\\Interfaces\\IHtmlValidator.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Checks\\Interfaces\\IHtmlValidator.cs",
+              "RelativeToolTip": "JSWebCourse.Checks\\Interfaces\\IHtmlValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T05:27:24.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForGetChapterUnitDto.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\ForGetChapterUnitDto.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\Dto\\ForGetChapterUnitDto.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\ForGetChapterUnitDto.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\Dto\\ForGetChapterUnitDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:05:59.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Unit.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\Unit.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Unit.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\Unit.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:34:37.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChapterServiceResult.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\ChapterServiceResult.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\ChapterServiceResult.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\ChapterServiceResult.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\ChapterServiceResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:10:59.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddChapterDto.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\AddChapterDto.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\Dto\\AddChapterDto.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\Dto\\AddChapterDto.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\Dto\\AddChapterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:06:21.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IChapterService.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\Interfaces\\IChapterService.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Services\\Interfaces\\IChapterService.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Services\\Interfaces\\IChapterService.cs",
+              "RelativeToolTip": "JSWebCourse.Services\\Interfaces\\IChapterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T15:11:47.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-12T16:15:47.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-02-12T17:04:25.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Program.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Program.cs",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T07:43:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T16:36:48.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\appsettings.json",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\appsettings.json",
+              "RelativeToolTip": "JSWebCourse.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-13T09:37:34.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChapterUnitTitles.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\ChapterUnitTitles.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.Models\\ChapterUnitTitles.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.Models\\ChapterUnitTitles.cs",
+              "RelativeToolTip": "JSWebCourse.Models\\ChapterUnitTitles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T16:37:30.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "JSWebCourse.WebApi\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T07:43:47.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\appsettings.Development.json",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "JSWebCourse.WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-12T17:07:22.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "jswebcourse.db",
+              "DocumentMoniker": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\jswebcourse.db",
+              "RelativeDocumentMoniker": "JSWebCourse.WebApi\\jswebcourse.db",
+              "ToolTip": "D:\\Repositories\\JSWebCourse\\JSWebCourse.WebApi\\jswebcourse.db",
+              "RelativeToolTip": "JSWebCourse.WebApi\\jswebcourse.db",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVDhPY2SAgsry0vsMDP8VoFwsgPHBn38Mgd3d3RegAkDl//9DWSADSv7/\u002BvULJwbJNzXUvi8tLTWAagEDJihNFEhITBbg5ebYj2wI0QYICAgwTJ82heH79\u002B8CLEz/90OFEQDdC3uOnPm/69ApFDEYBqmFasN0wdXbDxh2HDzJ8O79B4a3794zrN9\u002BgOHc5RtQWUyAYQALExPDt2/fGUz0NBlMDbQYvn3/xsDCgtunGDJ//v5l\u002BP37F8Pff38Z/gHZf37/Zvjz5y9UFhNgGPDz508GUOI4cPQUw74jJxgYgZxTZ88DXfIDogANYBhgpKvBEObnxsDHw8XwF2jzsxdPGR49eczQ0TeR4cbN21BVCIDTc4FeLgyezjYMHz98ZGirKWf48O4dAwcHG1QWAXCHDhB8/QoMQKCK3KJSBlZWZpSUCwN4DVBXVWaoKMpnsLG0YOjtaGNQVMDMKngNAAFuLi6G8NBgKA8TEDSAEEDKzsXA7MyIJzsjg/8P2jt7FRkYGBgAmdPDqvBXzR4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-12T17:07:29.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

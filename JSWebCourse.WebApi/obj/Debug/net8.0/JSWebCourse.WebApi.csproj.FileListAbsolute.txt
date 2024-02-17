@@ -135,7 +135,6 @@ D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\staticwebassets\
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JSWebCourse.WebApi.props
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\scopedcss\bundle\JSWebCourse.WebApi.styles.css
-D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCourse.WebApi.csproj.CopyComplete
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCourse.WebApi.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\refint\JSWebCourse.WebApi.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCourse.WebApi.pdb
@@ -152,3 +151,4 @@ D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCourse.WebA
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\HtmlAgilityPack.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\JSWebCourse.Checks.dll
 D:\Repositories\JSWebCourse\JSWebCourse.WebApi\bin\Debug\net8.0\JSWebCourse.Checks.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.WebApi\obj\Debug\net8.0\JSWebCou.121B2C52.Up2Date

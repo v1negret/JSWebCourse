@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using JSWebCourse.Checks.Interfaces;
+using JSWebCourse.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace JSWebCourse.Checks
 {
     public class HtmlValidator : IHtmlValidator
     {
-        public bool Validate(string htmlCode)
+        public HtmlValidatorResult Validate(string htmlCode)
         {
             try
             {
@@ -22,14 +23,14 @@ namespace JSWebCourse.Checks
 
                 if (errors.Any())
                 {
-                    return false;
+                    return new HtmlValidatorResult() { Result = false, Errors = new List<HtmlParseError>(errors)};
                 }
 
-                return false;
+                return new HtmlValidatorResult() { Result = true };
             }
             catch (Exception ex)
             {
-                return false;
+                return new HtmlValidatorResult() { Result = false };
             }
         }
     }

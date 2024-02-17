@@ -16,7 +16,7 @@ namespace JSWebCourse.Services.Interfaces
         public Task<ServiceResult> UpdateUnit(UpdateUnitDto unit);
         public Task<ServiceResult> RemoveUnit(AddUnitDto unit);
         public Task<ServiceResult> RemoveUnitById(int unitId);
-        public Task<ServiceResult> AddUnitToChapter(AddUnitDto unit);
+        public Task<AddUnitResult> AddUnitToChapter(AddUnitDto unit);
 
     }
 }

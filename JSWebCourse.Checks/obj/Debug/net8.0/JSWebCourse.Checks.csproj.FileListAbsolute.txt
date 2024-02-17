@@ -11,3 +11,6 @@ D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Chec
 D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\refint\JSWebCourse.Checks.dll
 D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCourse.Checks.pdb
 D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\ref\JSWebCourse.Checks.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\bin\Debug\net8.0\JSWebCourse.Models.dll
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\bin\Debug\net8.0\JSWebCourse.Models.pdb
+D:\Repositories\JSWebCourse\JSWebCourse.Checks\obj\Debug\net8.0\JSWebCou.6037B4AF.Up2Date

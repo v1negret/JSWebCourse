@@ -10,4 +10,8 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.58" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JSWebCourse.Models\JSWebCourse.Models.csproj" />
+  </ItemGroup>
+
 </Project>

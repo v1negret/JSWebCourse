@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace JSWebCourse.WebApi.Controllers
 {
@@ -57,13 +58,13 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> AddUnit([FromBody]AddUnitDto unit)
         {
             var result = await _unitService.AddUnitToChapter(unit);
-            if (result == ServiceResult.ServerError)
+            if (result.Result == ServiceResult.ServerError)
             {
                 return StatusCode(500);
             }
-            if (result == ServiceResult.BadRequest)
+            if (result.Result == ServiceResult.BadRequest)
             {
-                return BadRequest();
+                return BadRequest(result.Errors);
             }
 
             return Ok();

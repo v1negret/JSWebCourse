@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JSWebCourse.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace JSWebCourse.Checks.Interfaces
 {
     public interface IHtmlValidator
     {
-        public bool Validate(string html);
+        public HtmlValidatorResult Validate(string html);
     }
 }
