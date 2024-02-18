@@ -70,6 +70,7 @@ app.UseCors(builder =>
 {
     builder.AllowAnyHeader();
     builder.AllowAnyMethod();
+    builder.AllowCredentials();
     builder.WithOrigins("http://localhost:*");
 });
 
