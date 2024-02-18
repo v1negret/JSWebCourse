@@ -44,5 +44,19 @@ namespace JSWebCourse.WebApi.Controllers
 
             return Ok();
         }
+
+        [HttpGet]
+        [Route("get/isAdmin")]
+        [Authorize]
+        public async Task<IActionResult> IsUserAdmin()
+        {
+            var user = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
+            if (await _userManager.IsInRoleAsync(user, "Admin")) 
+            {
+                return Ok(new IsUserAdminResult() { IsAdmin = true });
+            }
+
+            return Ok(new IsUserAdminResult() { IsAdmin = false });
+        }
     }
 }
