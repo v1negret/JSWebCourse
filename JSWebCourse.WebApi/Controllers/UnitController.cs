@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.IdentityModel.Tokens;
 
 namespace JSWebCourse.WebApi.Controllers
 {
@@ -26,7 +27,7 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> GetUnitsByChapterId([FromRoute]int id)
         {
             var result = await _unitService.GetUnitsByChapter(id);
-            if(result == null)
+            if(result.IsNullOrEmpty())
             {
                 return NotFound();
             }
@@ -39,17 +40,21 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> GetUnit([FromRoute] int id)
         {
             var response = await _unitService.GetUnitById(id);
-            if (response.ServiceResult == ServiceResult.ServerError)
+            switch (response.ServiceResult)
             {
-                return StatusCode(500);
-            }
-            if (response.ServiceResult == ServiceResult.BadRequest)
-            {
-                return BadRequest();
-            }
-            var result = response.Unit;
+                case ServiceResult.ServerError:
+                    return StatusCode(500);
+                case ServiceResult.BadRequest:
+                    return BadRequest();
+                case ServiceResult.Success:
+                {
+                    var result = response.Unit;
 
-            return Ok(result);
+                    return Ok(result);
+                }
+                default:
+                    return StatusCode(500);
+            }
         }
 
         [HttpPost]
@@ -58,16 +63,19 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> AddUnit([FromBody]AddUnitDto unit)
         {
             var result = await _unitService.AddUnitToChapter(unit);
-            if (result.Result == ServiceResult.ServerError)
+            switch(result.Result)
             {
-                return StatusCode(500);
+                case AddUnitServiceResult.ServerError:
+                    return StatusCode(500);
+                case AddUnitServiceResult.HtmlNotValid:
+                    return BadRequest(result.Errors);
+                case AddUnitServiceResult.BadRequest:
+                    return BadRequest("Title or description or html string is empty");
+                case AddUnitServiceResult.Success:
+                    return Ok();
+                default:
+                    return StatusCode(500);
             }
-            if (result.Result == ServiceResult.BadRequest)
-            {
-                return BadRequest(result.Errors);
-            }
-
-            return Ok();
         }
 
         [HttpPatch]
@@ -77,16 +85,17 @@ namespace JSWebCourse.WebApi.Controllers
         {
             var result = await _unitService.UpdateUnit(unit);
 
-            if (result == ServiceResult.ServerError)
+            switch (result)
             {
-                return StatusCode(500);
+                case ServiceResult.ServerError:
+                    return StatusCode(500);
+                case ServiceResult.BadRequest:
+                    return BadRequest("Unit title of description is empty");
+                case ServiceResult.Success:
+                    return Ok();
+                default:
+                    return StatusCode(500);
             }
-            if (result == ServiceResult.BadRequest)
-            {
-                return BadRequest();
-            }
-
-            return Ok();
         }
 
         [HttpDelete]
@@ -95,16 +104,17 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> DeleteUnit([FromRoute]int id)
         {
             var result = await _unitService.RemoveUnitById(id);
-            if (result == ServiceResult.ServerError)
+            switch (result)
             {
-                return StatusCode(500);
+                case ServiceResult.ServerError:
+                    return StatusCode(500);
+                case ServiceResult.BadRequest:
+                    return BadRequest("Cannot find unit by id");
+                case ServiceResult.Success:
+                    return Ok();
+                default:
+                    return StatusCode(500);
             }
-            if (result == ServiceResult.BadRequest)
-            {
-                return BadRequest();
-            }
-
-            return Ok();
         }
     }
 }

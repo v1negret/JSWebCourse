@@ -1,17 +1,8 @@
-﻿using JSWebCourse.Checks.Interfaces;
-using JSWebCourse.Data;
+﻿using JSWebCourse.Data;
 using JSWebCourse.Models;
 using JSWebCourse.Models.Dto;
 using JSWebCourse.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace JSWebCourse.Services
 {

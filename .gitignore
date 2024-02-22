@@ -1,2 +1,6 @@
 #ignore all Databases files
 *.db
+
+#ignore debug and rlease versions
+**/bin
+**/obj

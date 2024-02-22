@@ -4,13 +4,7 @@ using JSWebCourse.Models;
 using JSWebCourse.Models.Dto;
 using JSWebCourse.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace JSWebCourse.Services
 {
@@ -42,16 +36,16 @@ namespace JSWebCourse.Services
         {
             try
             {
-                if(unitDto == null)
+                if(string.IsNullOrEmpty(unitDto.Title) || string.IsNullOrEmpty(unitDto.Description) || string.IsNullOrEmpty(unitDto.HtmlString))
                 {
-                    return new AddUnitResult() { Result = ServiceResult.BadRequest };
+                    return new AddUnitResult() { Result = AddUnitServiceResult.BadRequest };
                 }
 
                 var htmlValidate = _htmlValidator.Validate(unitDto.HtmlString);
 
                 if(htmlValidate.Result == false)
                 {
-                    return new AddUnitResult() { Result = ServiceResult.BadRequest, Errors = htmlValidate.Errors};
+                    return new AddUnitResult() { Result = AddUnitServiceResult.HtmlNotValid, Errors = htmlValidate.Errors};
                 }
 
                 var unit = new Unit()
@@ -65,11 +59,11 @@ namespace JSWebCourse.Services
                 await _db.Units.AddAsync(unit);
                 await _db.SaveChangesAsync();
 
-                return new AddUnitResult() { Result = ServiceResult.Success };
+                return new AddUnitResult() { Result = AddUnitServiceResult.Success };
             }
             catch(Exception ex)
             {
-                return new AddUnitResult() { Result = ServiceResult.ServerError };
+                return new AddUnitResult() { Result = AddUnitServiceResult.ServerError };
             }
         }
 
@@ -164,13 +158,13 @@ namespace JSWebCourse.Services
         {
             try
             {
-                if (unitId == 0)
-                {
-                    return ServiceResult.BadRequest;
-                }
 
                 var unit = await _db.Units.FirstOrDefaultAsync(u =>
                     u.UnitId == unitId);
+                if (unit == null)
+                {
+                    return ServiceResult.BadRequest;
+                }
 
                 _db.Units.Remove(unit);
                 await _db.SaveChangesAsync();
@@ -187,7 +181,7 @@ namespace JSWebCourse.Services
         {
             try
             {
-                if(unitDto == null) 
+                if(String.IsNullOrEmpty(unitDto.Title) || String.IsNullOrEmpty(unitDto.Description)) 
                 {
                     return ServiceResult.BadRequest;
                 }

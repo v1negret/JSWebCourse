@@ -1,16 +1,11 @@
 ﻿using JSWebCourse.Models;
 using JSWebCourse.Models.Dto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JSWebCourse.Services.Interfaces
 {
     public interface IChapterService
     {
-        public Task<IEnumerable<ChapterUnitTitles>> GetAllNames();
+        public Task<IEnumerable<ChapterUnitTitles>?> GetAllNames();
         public Task<IEnumerable<Chapter>> GetAllChapters();
         public Task<GetChapterByIdResult> GetChapterById(int id);
         public Task<ChapterServiceResult> GetChapterByTitle(string title);

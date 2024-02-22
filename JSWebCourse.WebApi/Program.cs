@@ -3,16 +3,10 @@ using JSWebCourse.Checks.Interfaces;
 using JSWebCourse.Data;
 using JSWebCourse.Services;
 using JSWebCourse.Services.Interfaces;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
-using System.Text;
-using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -51,6 +45,7 @@ builder.Services.AddSwaggerGen(opt =>
 
 builder.Services.AddScoped<IChapterService, ChapterService>();
 builder.Services.AddScoped<IUnitService, UnitService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IHtmlValidator, HtmlValidator>();
 
 var app = builder.Build();

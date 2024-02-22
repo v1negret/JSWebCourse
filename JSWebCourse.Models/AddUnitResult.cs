@@ -9,7 +9,7 @@ namespace JSWebCourse.Models
 {
     public class AddUnitResult
     {
-        public ServiceResult Result { get; set; }
+        public AddUnitServiceResult Result { get; set; }
         public IEnumerable<HtmlParseError> Errors { get; set; }
     }
 }

@@ -24,17 +24,21 @@ namespace JSWebCourse.WebApi.Controllers
         public async Task<IActionResult> GetChapter([FromRoute] int id)
         {
             var response = await _chapterService.GetChapterById(id);
-            if (response.ServiceResult == ServiceResult.ServerError)
+            switch (response.ServiceResult)
             {
-                return StatusCode(500);
-            }
-            if (response.ServiceResult == ServiceResult.BadRequest)
-            {
-                return BadRequest();
-            }
-            var result = response.Chapter;
+                case ServiceResult.ServerError:
+                    return StatusCode(500);
+                case ServiceResult.BadRequest:
+                    return BadRequest();
+                case ServiceResult.Success:
+                {
+                    var result = response.Chapter;
 
-            return Ok(result);
+                    return Ok(result);
+                }
+                default:
+                    return StatusCode(500);
+            }
         }
 
         [HttpPost]
