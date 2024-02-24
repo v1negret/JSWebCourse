@@ -15,9 +15,14 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddCors();
+
+// Https configuring
+builder.Services.AddHttpsRedirection(opt =>
+{
+    opt.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+});
 
 // Add database and identity to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(opt => 
@@ -56,6 +61,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+    app.UseHsts();
+}
 
 app.MapIdentityApi<IdentityUser>();
 
@@ -67,5 +76,17 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var roleManager =
+        scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    if (!await roleManager.RoleExistsAsync("Admin"))
+    {
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+    }
+}
+
 
 app.Run();
