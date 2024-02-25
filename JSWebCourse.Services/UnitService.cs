@@ -18,6 +18,27 @@ namespace JSWebCourse.Services
             _htmlValidator = htmlValidator;
         }
 
+        public async Task<GetAllUnitsResult> GetAllWithDetails()
+        {
+            try
+            {
+                var units = await _db.Units.ToListAsync();
+                return new GetAllUnitsResult()
+                {
+                    Units = units,
+                    Result = ServiceResult.Success
+                };
+            }
+            catch (Exception ex)
+            {
+                return new GetAllUnitsResult()
+                {
+                    Units = null,
+                    Result = ServiceResult.ServerError
+                };
+            }
+        }
+
         public async Task<IEnumerable<Unit>> GetUnitsByChapter(int chapterId)
         {
             try

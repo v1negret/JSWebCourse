@@ -5,6 +5,7 @@ namespace JSWebCourse.Services.Interfaces
 {
     public interface IChapterService
     {
+        
         public Task<IEnumerable<ChapterUnitTitles>?> GetAllNames();
         public Task<IEnumerable<Chapter>> GetAllChapters();
         public Task<GetChapterByIdResult> GetChapterById(int id);

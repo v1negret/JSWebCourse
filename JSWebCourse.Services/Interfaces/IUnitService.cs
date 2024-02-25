@@ -5,6 +5,7 @@ namespace JSWebCourse.Services.Interfaces
 {
     public interface IUnitService
     {
+        public Task<GetAllUnitsResult> GetAllWithDetails();
         public Task<IEnumerable<Unit>> GetUnitsByChapter(int chapterId);
         public Task<UnitServiceResult> GetUnitById(int id);
         public Task<UnitServiceResult> GetUnitByTitle(string title);

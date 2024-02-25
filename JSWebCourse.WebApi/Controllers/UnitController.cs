@@ -34,6 +34,8 @@ namespace JSWebCourse.WebApi.Controllers
 
             return Ok(result);
         }
+        
+        
 
         [HttpGet]
         [Route("get/{id}")]
@@ -55,6 +57,23 @@ namespace JSWebCourse.WebApi.Controllers
                 default:
                     return StatusCode(500);
             }
+        }
+        
+        [HttpGet]
+        [Route("get/all")]
+        public async Task<IActionResult> GetAllUnits()
+        {
+            var result = await _unitService.GetAllWithDetails();
+            if (result.Result == ServiceResult.Success)
+            {
+                return Ok(result.Units);
+            }
+            else if (result.Result == ServiceResult.ServerError)
+            {
+                return StatusCode(500);
+            }
+
+            return StatusCode(500);
         }
 
         [HttpPost]
