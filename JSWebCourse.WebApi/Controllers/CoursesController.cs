@@ -31,5 +31,18 @@ namespace JSWebCourse.WebApi.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet]
+        [Route("get/details")]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _chapterService.GetAllChapters();
+            if (result.IsNullOrEmpty())
+            {
+                return BadRequest();
+            }
+
+            return Ok(result);
+        }
     }
 }

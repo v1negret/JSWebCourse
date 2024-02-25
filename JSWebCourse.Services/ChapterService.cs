@@ -13,6 +13,18 @@ namespace JSWebCourse.Services
         {
             _db = db;
         }
+        public async Task<IEnumerable<Chapter>> GetAll()
+        {
+            try
+            {
+                var chapters = await _db.Chapters.Include(c => c.Units).ToListAsync();
+                return chapters;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
         public async Task<IEnumerable<ChapterUnitTitles>> GetAllNames()
         {
             try
