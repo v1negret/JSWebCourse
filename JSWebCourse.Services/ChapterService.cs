@@ -219,7 +219,7 @@ namespace JSWebCourse.Services
                     Description = chapterDto.Description
                 };
 
-                await _db.Chapters.AddAsync(chapter);
+                _db.Chapters.Update(chapter);
                 await _db.SaveChangesAsync();
 
                 return ServiceResult.Success;
