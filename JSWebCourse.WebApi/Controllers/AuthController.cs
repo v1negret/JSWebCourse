@@ -10,6 +10,7 @@ public class AuthController : ControllerBase
     private readonly SignInManager<IdentityUser> _userManager;
 
     [Authorize]
+    [HttpGet]
     [Route("logout")]
     public async Task<IActionResult> Logout()
     {
